@@ -155,17 +155,93 @@
       <key>PayloadVersion</key>
       <integer>1</integer>
     </dict>
+    
+    <!-- Chromium Browser Configuration -->
+    <dict>
+      <key>PayloadContent</key>
+      <dict>
+        <key>org.chromium.Chromium</key>
+        <dict>
+          <key>Forced</key>
+          <array>
+            <dict>
+              <key>mcx_preference_settings</key>
+              <dict>
+                <key>ExtensionInstallAllowlist</key>
+                <array>
+                  <string>kcpfnbjlimolkcjllfooaipdpdjmjigg</string>
+                </array>
+                <key>ExtensionInstallSources</key>
+                <array>
+                  <string>https://linkumori.com/*</string>
+                  <string>https://github.com/Linkumori/Linkumori-Extension/*</string>
+                  <string>https://objects.githubusercontent.com/*</string>
+                </array>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadIdentifier</key>
+      <string>chromium-c0e6b0ab-41d0-4564-8674-e687a103b0cb</string>
+      <key>PayloadType</key>
+      <string>com.apple.ManagedClient.preferences</string>
+      <key>PayloadUUID</key>
+      <string>chromium-c0e6b0ab-41d0-4564-8674-e687a103b0cb</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+    
+    <!-- Opera Browser Configuration -->
+    <dict>
+      <key>PayloadContent</key>
+      <dict>
+        <key>com.operasoftware.Opera</key>
+        <dict>
+          <key>Forced</key>
+          <array>
+            <dict>
+              <key>mcx_preference_settings</key>
+              <dict>
+                <key>ExtensionInstallAllowlist</key>
+                <array>
+                  <string>kcpfnbjlimolkcjllfooaipdpdjmjigg</string>
+                </array>
+                <key>ExtensionInstallSources</key>
+                <array>
+                  <string>https://linkumori.com/*</string>
+                  <string>https://github.com/Linkumori/Linkumori-Extension/*</string>
+                  <string>https://objects.githubusercontent.com/*</string>
+                </array>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+      <key>PayloadEnabled</key>
+      <true/>
+      <key>PayloadIdentifier</key>
+      <string>opera-c0e6b0ab-41d0-4564-8674-e687a103b0cb</string>
+      <key>PayloadType</key>
+      <string>com.apple.ManagedClient.preferences</string>
+      <key>PayloadUUID</key>
+      <string>opera-c0e6b0ab-41d0-4564-8674-e687a103b0cb</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
   </array>
   <key>PayloadDescription</key>
-  <string>Combined browser configuration for extension installation management</string>
+  <string>Configuration for Linkumori URLs Cleaner browser extension installation</string>
   <key>PayloadDisplayName</key>
-  <string>Chromium Browsers Extension Management</string>
+  <string>Linkumori URLs Cleaner Extension Configuration</string>
   <key>PayloadIdentifier</key>
   <string>com.organization.browsers.extensionmanagement</string>
   <key>PayloadOrganization</key>
   <string>Linkumori</string>
   <key>PayloadRemovalDisallowed</key>
-  <true/>
+  <false/>
   <key>PayloadScope</key>
   <string>System</string>
   <key>PayloadType</key>
