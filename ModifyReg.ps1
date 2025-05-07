@@ -29,7 +29,7 @@ function Install-ChromeRegistry {
         
         Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Google\Chrome\ExtensionInstallAllowlist" `
             -Name "1" `
-            -Value "kcpfnbjlimolkcjllfooaipdpdjmjigg" `
+            -Value "pffeeolamoojgccldanobijnpbjffipb" `
             -Type String -Force
             
         Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Google\Chrome\ExtensionInstallSources" `
@@ -53,7 +53,7 @@ function Install-BraveRegistry {
         
         Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\BraveSoftware\Brave\ExtensionInstallAllowlist" `
             -Name "1" `
-            -Value "kcpfnbjlimolkcjllfooaipdpdjmjigg" `
+            -Value "pffeeolamoojgccldanobijnpbjffipb" `
             -Type String -Force
             
         Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\BraveSoftware\Brave\ExtensionInstallSources" `
@@ -77,7 +77,7 @@ function Install-EdgeRegistry {
         
         Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallAllowlist" `
             -Name "1" `
-            -Value "kcpfnbjlimolkcjllfooaipdpdjmjigg" `
+            -Value "pffeeolamoojgccldanobijnpbjffipb" `
             -Type String -Force
             
         Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallSources" `
